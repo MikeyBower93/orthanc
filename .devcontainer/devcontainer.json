@@ -1,0 +1,17 @@
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			"VARIANT": "ubuntu-22.04"
+		}
+	},
+	"postCreateCommand": "./setup.sh",
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "zsh"
+  },
+	"features": {
+		"docker-in-docker": "latest",
+		"git": "latest"
+	}
+}
