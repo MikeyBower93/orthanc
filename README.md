@@ -4,7 +4,4 @@ My containerised development machine that installs all the tools that I need to 
 
 ## Notes
 - This is emulating a machine, whereby it installs all the tools for local development.
-- You can then create a `Development` folder with `mkdir Development` and then clone any repo you desire to code on into that directory, and it will ensure it doesn't get committed to this repository.
-
-## Running in codespaces
-- Codespaces doesn't automatically run `setup.sh` so you need to run `chmod 777 setup.sh` folloed by `./setup.sh` for it to install the tooling needed.
+- The `Development` folder can be used to clone the projects you want to work on, or to create test projects etc.
