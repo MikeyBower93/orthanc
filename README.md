@@ -8,6 +8,3 @@ My containerised development machine that installs all the tools that I need to 
 
 ## Running in codespaces
 - Codespaces doesn't automatically run `setup.sh` so you need to run `chmod 777 setup.sh` folloed by `./setup.sh` for it to install the tooling needed.
-
-## Next steps
-- Find ways for VSCode search to index the development folder.
