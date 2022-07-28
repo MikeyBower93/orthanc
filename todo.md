@@ -1,2 +1,0 @@
-- decide which extensions needed (docker containers, sql, httpie etc)
-- readme.md
